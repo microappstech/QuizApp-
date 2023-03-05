@@ -1,0 +1,19 @@
+<div class="bg-light mt-5 py-5">
+    <div class="container">
+        <h1 class="display-5 py-5 fw-bold">Welcome to quiz</h1>
+        <p><strong>The quiz will conatins 10 questions. 10 points for each question</strong></p><hr>
+        <h4>Rules : </h4>
+        <ol>
+            <li>You have 60 second for each question </li>
+            <li>You can't reanswer question after moving to next </li>
+            <li>Refreshing page will reset all your answer</li>
+        </ol>
+        <hr>
+        <div class="form-group py-4">
+            <label for="name">Your Name :</label>
+            <input #name type="text" name="name" id="" class="form-control" placeholder="Enter Your Name" aria-describedby="helpId" required>
+            
+        </div>
+        <button type="submit" (click)="startQuiz()" [routerLink]="['/question']" class="btn btn-success px-5">Start Quiz</button>
+    </div>
+</div>
