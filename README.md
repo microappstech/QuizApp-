@@ -1,3 +1,4 @@
+
 # QuizAngular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.1.
@@ -25,3 +26,11 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+-----------------------------------------------------------------------------------------------------
+# Manuel utilisition 
+###### by Hamza Mouddakir 
+### branches there are two branch 
+#### - Master : 
+this branch contenbt front ent that created just using angular 
+#### - angularAsp : 
+This branche contains project of backend that created using angular and Aspnet core
