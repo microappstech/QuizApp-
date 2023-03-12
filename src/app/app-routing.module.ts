@@ -7,7 +7,7 @@ import { WelcomeComponent } from './welcome/welcome.component';
 const routes: Routes = [
   {path:"", redirectTo:"welcome",pathMatch:"full"},
   {path:"welcome",component:WelcomeComponent},
-  {path:"Start-quiz", component:BeforestartComponent},
+  {path:"Start-quiz/:category", component:BeforestartComponent},
   {path:"question",component:QuestionComponent}
 ];
 

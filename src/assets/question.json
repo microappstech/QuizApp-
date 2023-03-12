@@ -1,5 +1,6 @@
 {
-    "questions": [{
+    "questions": [
+        {
             "questionText": "Which of the following does TypeScript use to specify types?",
             "options": [{
                     "text": ":",
@@ -161,5 +162,388 @@
             ],
             "explanation": "this.propertyName is the way to access a specific property within a class"
         }
-    ]
+        ],
+    "ordinateur": [
+        {
+        "questionText": "What does CPU stand for?",
+        "options": [
+            {"text": "Central Power Unit"},
+            {"text": "Computer Processing Unit"},
+            {"text": "Central Processing Unit", "correct": true},
+            {"text": "Computer Power Unit"}
+        ],
+        "explanation": "The CPU (Central Processing Unit) is the main component of a computer that performs most of the processing."
+        },
+        {
+        "questionText": "What is RAM?",
+        "options": [
+            {"text": "Random Access Memory", "correct": true},
+            {"text": "Read-Only Memory"},
+            {"text": "Reinforced Access Memory"},
+            {"text": "Recurring Active Memory"}
+        ],
+        "explanation": "RAM (Random Access Memory) is a type of computer memory that allows data to be read and written in any order."
+        },
+        {
+        "questionText": "What is a motherboard?",
+        "options": [
+            {"text": "The main circuit board of a computer", "correct": true},
+            {"text": "A type of computer case"},
+            {"text": "A component that displays images on a screen"},
+            {"text": "A type of keyboard"}
+        ],
+        "explanation": "The motherboard is the main circuit board of a computer that connects all the other components together."
+        },
+        {
+        "questionText": "What is a GPU?",
+        "options": [
+            {"text": "Graphics Processing Unit", "correct": true},
+            {"text": "General Processing Unit"},
+            {"text": "Global Processing Unit"},
+            {"text": "Graphical Power Unit"}
+        ],
+        "explanation": "A GPU (Graphics Processing Unit) is a type of processor that is specifically designed to handle graphics and image processing tasks."
+        },
+        {
+        "questionText": "What is a hard drive?",
+        "options": [
+            {"text": "A type of computer case"},
+            {"text": "A component that displays images on a screen"},
+            {"text": "A type of keyboard"},
+            {"text": "A device for storing digital data", "correct": true}
+        ],
+        "explanation": "A hard drive is a device for storing digital data such as files, programs, and operating systems."
+        },
+        {
+        "questionText": "What is an operating system?",
+        "options": [
+            {"text": "A type of software that helps manage a computer's resources", "correct": true},
+            {"text": "A type of computer case"},
+            {"text": "A component that displays images on a screen"},
+            {"text": "A type of keyboard"}
+        ],
+        "explanation": "An operating system is a type of software that manages a computer's resources such as memory, processing power, and storage."
+        },
+        {
+        "questionText": "What is a file extension?",
+        "options": [
+            {"text": "The last part of a file name that identifies the type of file", "correct": true},
+            {"text": "The first part of a file name that identifies the type of file"},
+            {"text": "The middle part of a file name that identifies the type of file"},
+            {"text": "A type of file that contains instructions for the computer"}
+        ],
+        "explanation": "A file extension is the last part of a file name that identifies the type of file, such as .txt for a text file or .jpg for an image file."
+        },
+        {
+        "questionText": "What does CSS stand for?",
+        "options": [
+            {
+            "text": "Cascading Style Sheets",
+            "correct": true
+            },
+            {
+            "text": "Computer Style Sheets"
+            },
+            {
+            "text": "Creative Style Sheets"
+            },
+            {
+            "text": "Colorful Style Sheets"
+            }
+        ],
+        "explanation": "CSS stands for Cascading Style Sheets and is used for styling web pages."
+        },
+        {
+        "questionText": "What is the correct HTML element for the largest heading?",
+        "options": [
+            {
+            "text": "<h1>",
+            "correct": true
+            },
+            {
+            "text": "<heading>"
+            },
+            {
+            "text": "<head>"
+            },
+            {
+            "text": "<h6>"
+            }
+        ],
+        "explanation": "The <h1> element is used for the largest heading on a web page."
+        }
+    ],
+      
+    "internet": [
+        {
+        "questionText": "What is the role of an operating system?",
+        "options": [
+            {
+            "text": "To manage computer hardware and software resources",
+            "correct": true
+            },
+            {
+            "text": "To create documents and spreadsheets"
+            },
+            {
+            "text": "To browse the internet"
+            },
+            {
+            "text": "To play games"
+            }
+        ],
+        "explanation": "An operating system is responsible for managing the computer's hardware and software resources, providing a platform for other applications to run on."
+        },
+        {
+        "questionText": "What is the function of a kernel?",
+        "options": [
+            {
+            "text": "To manage the computer's resources",
+            "correct": true
+            },
+            {
+            "text": "To create documents and spreadsheets"
+            },
+            {
+            "text": "To browse the internet"
+            },
+            {
+            "text": "To play games"
+            }
+        ],
+        "explanation": "The kernel is the core of the operating system that manages the computer's resources, including the CPU, memory, and input/output devices."
+        },
+        {
+        "questionText": "What is virtual memory?",
+        "options": [
+            {
+            "text": "A technique for using the hard disk as an extension of RAM",
+            "correct": true
+            },
+            {
+            "text": "A method for backing up data to a remote server"
+            },
+            {
+            "text": "A type of network protocol"
+            },
+            {
+            "text": "A tool for creating virtual machines"
+            }
+        ],
+        "explanation": "Virtual memory is a technique that allows the operating system to use the hard disk as an extension of RAM, which can increase the amount of memory available to applications."
+        },
+        {
+        "questionText": "What is a process?",
+        "options": [
+            {
+            "text": "An instance of a running program",
+            "correct": true
+            },
+            {
+            "text": "A type of file system"
+            },
+            {
+            "text": "A method for accessing remote resources"
+            },
+            {
+            "text": "A tool for managing network connections"
+            }
+        ],
+        "explanation": "A process is an instance of a running program that has its own memory space and resources, such as CPU time and input/output channels."
+        },
+        {
+        "questionText": "What is a file system?",
+        "options": [
+            {
+            "text": "The way files are organized on a storage device",
+            "correct": true
+            },
+            {
+            "text": "A method for backing up data to a remote server"
+            },
+            {
+            "text": "A type of network protocol"
+            },
+            {
+            "text": "A tool for creating virtual machines"
+            }
+        ],
+        "explanation": "A file system is the way that files are organized and stored on a storage device, such as a hard disk or solid-state drive."
+        },
+        {
+        "questionText": "What is a device driver?",
+        "options": [
+            {
+            "text": "Software that allows the operating system to communicate with hardware devices",
+            "correct": true
+            },
+            {
+            "text": "A type of network cable"
+            },
+    
+    
+            {
+            "text": "A tool for managing network connections"
+            },
+            {
+            "text": "A program for creating virtual machines"
+            }
+        ]
+        },
+        {
+        "questionText": "What does CSS stand for?",
+        "options": [
+            {
+            "text": "Cascading Style Sheets",
+            "correct": true
+            },
+            {
+            "text": "Computer Style Sheets"
+            },
+            {
+            "text": "Creative Style Sheets"
+            },
+            {
+            "text": "Colorful Style Sheets"
+            }
+        ],
+        "explanation": "CSS stands for Cascading Style Sheets and is used for styling web pages."
+        },
+        {
+        "questionText": "What is the correct HTML element for the largest heading?",
+        "options": [
+            {
+            "text": "<h1>",
+            "correct": true
+            },
+            {
+            "text": "<heading>"
+            },
+            {
+            "text": "<head>"
+            },
+            {
+            "text": "<h6>"
+            }
+        ],
+        "explanation": "The <h1> element is used for the largest heading on a web page."
+        },
+        {
+        "questionText": "What is the correct way to include a JavaScript file in an HTML page?",
+        "options": [
+            {
+            "text": "<script src='filename.js'></script>",
+            "correct": true
+            },
+            {
+            "text": "<javascript src='filename.js'></javascript>"
+            },
+            {
+            "text": "<script href='filename.js'></script>"
+            },
+            {
+            "text": "<link rel='javascript' href='filename.js'>"
+            }
+        ],
+        "explanation": "To include a JavaScript file in an HTML page, you can use the <script> element with the 'src' attribute set to the file path."
+        }
+    ],
+    "network": [
+        {
+            "questionText": "What is a MAC address?",
+            "options": [
+                {
+                    "text": "A unique identifier assigned to a network interface controller (NIC) for use as a network address in communications within a network segment.",
+                    "correct": true
+                },
+                {
+                    "text": "A unique identifier assigned to a router to identify it on a network."
+                },
+                {
+                    "text": "A protocol used to route data packets between different networks."
+                },
+                {
+                    "text": "A type of cable used to connect devices on a network."
+                }
+            ],
+            "explanation": "A MAC (Media Access Control) address is a unique identifier assigned to a network interface controller (NIC) for use as a network address in communications within a network segment."
+        },
+        {
+            "questionText": "What is a router?",
+            "options": [
+                {
+                    "text": "A device that connects two or more networks and forwards data packets between them.",
+                    "correct": true
+                },
+                {
+                    "text": "A device that allows multiple devices to connect to a network."
+                },
+                {
+                    "text": "A type of cable used to connect devices on a network."
+                },
+                {
+                    "text": "A protocol used to route data packets between different networks."
+                }
+            ],
+            "explanation": "A router is a device that connects two or more networks and forwards data packets between them."
+        },
+        {
+            "questionText": "What is an IP address?",
+            "options": [
+                {
+                    "text": "A unique identifier assigned to a device on a network to allow it to communicate with other devices.",
+                    "correct": true
+                },
+                {
+                    "text": "A protocol used to route data packets between different networks."
+                },
+                {
+                    "text": "A type of cable used to connect devices on a network."
+                },
+                {
+                    "text": "A device that connects two or more networks and forwards data packets between them."
+                }
+            ],
+            "explanation": "An IP (Internet Protocol) address is a unique identifier assigned to a device on a network to allow it to communicate with other devices."
+        },
+        {
+            "questionText": "What is a firewall?",
+            "options": [
+                {
+                    "text": "A security system that monitors and controls incoming and outgoing network traffic based on predetermined security rules.",
+                    "correct": true
+                },
+                {
+                    "text": "A device that allows multiple devices to connect to a network."
+                },
+                {
+                    "text": "A protocol used to route data packets between different networks."
+                },
+                {
+                    "text": "A type of cable used to connect devices on a network."
+                }
+            ],
+            "explanation": "A firewall is a security system that monitors and controls incoming and outgoing network traffic based on predetermined security rules."
+        },
+        {
+            "questionText": "What is a subnet mask?",
+            "options": [
+                {
+                    "text": "A number that defines the network portion of an IP address.",
+                    "correct": true
+                },
+                {
+                    "text": "A number that defines the host portion of an IP address."
+                },
+                {
+                    "text": "A protocol used to route data packets between different networks."
+                },
+                {
+                    "text": "A type of cable used to connect devices on a network."
+                }
+            ],
+            "explanation": "A subnet mask is a number that defines the network portion of an IP address."
+        }]
+          
+          
 }

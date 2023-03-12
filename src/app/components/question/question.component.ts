@@ -17,8 +17,10 @@ export class QuestionComponent implements OnInit{
   correctAnswer=0; wrongAnswer=0;
   interva:any;
   progress:string="0"
+  category:any;
   ngOnInit(): void {
     this.name=localStorage.getItem('name')
+    this.category=localStorage.getItem("category");
     this.getAllQuestions();
     
     this.startCounter();
@@ -27,7 +29,18 @@ export class QuestionComponent implements OnInit{
   getAllQuestions() {
     this._questionService.getQuestions().subscribe(
       res=>{
-        this.questionList = res.questions
+        if(this.category=="computer"){
+          this.questionList = res.ordinateur;
+        }
+        if(this.category=="angular"){
+          this.questionList = res.questions;
+        }
+        if(this.category=="internet"){
+          this.questionList = res.internet;
+        }
+        if(this.category=="network"){
+          this.questionList = res.network;
+        }
       },
       err=>{
         console.log(err)
